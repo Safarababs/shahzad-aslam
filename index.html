@@ -241,7 +241,7 @@
 
 <!-- contact section ends -->
 
-<div class="credit"> &copy; copyright @ <?php echo date('Y'); ?> all rights reserved by <span>mr. shahzad aslam</span> </div>
+<p style="display:inline;" >© Copyright @ <p id="footerYear" style="display:inline;"></p>all rights reserved by <span>mr. shahzad aslam</span></p>
 
 
 
@@ -267,6 +267,7 @@
 
 
 document.getElementById("experienceYear").innerHTML = date - 2010;
+   document.getElementById("footerYear").innerHTML = date;
 document.getElementById("age").innerHTML = date - 1985 + " years";
 document.getElementById("experience").innerHTML = date - 2010 + "+ years";
    AOS.init({
